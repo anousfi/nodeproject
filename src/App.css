@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+#first{
+  border-radius: 1.5px;
+  border-color: rgb(196, 143, 175);
+  border-style: solid;
+  border-width: 2px;
+  text-align:center;
+  width:100 px;
+  height:220px;
+  background-color:rgb(167, 29, 167);
+  color: aliceblue;
+  font-family: 'newFont2';
+  font-size: small;
+  padding:top=20px,bottom=20px,left=10px,right=10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display:flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+#first1{
+  border-radius: 1.5px;
+  border-color: rgb(196, 143, 175);
+  border-style: solid;
+  border-width: 2px;
+  text-align:center;
+  width:100 px;
+  height:380px;
+  background-color:rgb(167, 29, 167);
+  color: aliceblue;
+  font-family: 'newFont2';
+  font-size: small;
+  padding:top=20px,bottom=20px,left=10px,right=10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#main{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: rgb(8, 8, 8);
+  border-top-style:solid;
+  border-top-width:1.5px ;
+  border-top-color: black;
+  height: 460px;
+}
+#main1{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: rgb(8, 8, 8);
+  border-top-style:solid;
+  border-top-width:1.5px ;
+  border-top-color: black;
+  height: 760px;
+}
+#top{
+  background-color: rgb(241, 25, 241);
+  text-align: center;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  font-family: 'newFont1';
+  font-size: xx-large;
+  color:rgb(1, 18, 32);
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
+#general{
+  display:grid;
+  grid-template-rows: 20% 80%;
+}
+@font-face {
+  font-family: 'newFont1';
+  src: url('C:\WINDOWS\Fonts\Crazy Robot.ttf');
+}
+@font-face {
+  font-family: 'newFont2';
+  src: url('C:\WINDOWS\Fonts\dDicapslock.ttf');
+}
+@keyframes theDisplayer {
   from {
-    transform: rotate(0deg);
+    opacity:0;
   }
   to {
-    transform: rotate(360deg);
+    opacity:1;
   }
 }
