@@ -14,6 +14,7 @@ function Ho(){
           <div id="general">
             <div id="top">
                <h1>User's list:</h1>
+               <Link to='contact'>-contact-</Link>
             </div>
             <div id="main">
                {list.map(element=>
@@ -26,6 +27,7 @@ function Ho(){
                     <p>{element.email}</p>
                   </div>)}
             </div>
+            
           </div>
       )
 
